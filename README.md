@@ -91,4 +91,16 @@ The UI provides:
 
 ## 🏗️ Architecture Overview
 
-
+User Input (Streamlit)
+↓
+LangGraph Workflow
+↓
+Market Agent ──┐
+Risk Agent ────┼──→ Tools
+Finance Agent ─┘
+↓
+Approval Agent (if required)
+↓
+CEO Strategy Agent
+↓
+Final Recommendation + Report
